@@ -20,3 +20,17 @@ FetchContent_Declare(
   GIT_TAG v1.10.0
 )
 add_subdirectory(spdlog)
+
+FetchContent_Declare(
+  sol2
+  GIT_REPOSITORY "https://github.com/ThePhD/sol2.git"
+  GIT_TAG v3.3.0
+)
+add_subdirectory(sol2)
+
+FetchContent_Declare(
+  lua
+  GIT_REPOSITORY "https://github.com/lua/lua.git"
+  GIT_TAG v5.4.4
+)
+add_subdirectory(lua)
