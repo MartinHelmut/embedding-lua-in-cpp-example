@@ -2,8 +2,8 @@
  * Copyright (c) 2022 Martin Helmut Fieber <info@martin-fieber.se>
  */
 
-#include "SomeLibrary/Core/Log.hpp"
-#include "SomeLibrary/Debug/Instrumentor.hpp"
+#include "Core/Debug/Instrumentor.hpp"
+#include "Core/Log.hpp"
 
 int main() {
   try {
